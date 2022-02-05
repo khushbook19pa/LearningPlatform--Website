@@ -1,0 +1,43 @@
+.androidDevelopment {
+  font-family: sans-serif;
+  position: relative;
+  background-color: rgb(241, 238, 238);
+}
+.androidCards {
+  position: absolute;
+  top: 2%;
+  left: 26%;
+  width: 74%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  overflow: scroll;
+  scroll-behavior: smooth;
+  color: black;
+}
+.sideScroll2 {
+  position: absolute;
+  top: 88%;
+  left: 31%;
+  width: 4%;
+  height: 5%;
+  border-radius: 50px 0 0 50px;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9));
+}
+.sideScroll2 i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 30px;
+  color: white;
+}
+#androidScrollLeft {
+  margin-left: 5%;
+  border-radius: 0 50px 50px 0;
+}
+#ad {
+  display: none;
+}

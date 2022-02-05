@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Cute+Font|Libre+Baskerville|Saira+Stencil+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/assets/css/header.css" rel="stylesheet" />
+    <link href="/assets/css/homePage.css" rel="stylesheet" />
+    <link href="/assets/css/webDevelopment.css" rel="stylesheet" />
+    <link href="/assets/css/androidDevelopment.css" rel="stylesheet" />
+    <link href="/assets/css/cards.css" rel="stylesheet" />
+    <link href="/assets/css/tech.css" rel="stylesheet" />
+    <link href="/assets/css/feedback.css" rel="stylesheet" />
+    <link href="/assets/css/mediaQueryMobile.css" rel="stylesheet" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="logoBackground">
+        <div class="logoText">
+          <div class="free">FREE</div>
+          <div class="tech">TECH</div>
+          <div class="stuff">STUFF.com</div>
+        </div>
+        <div class="followUs" id="followUs"><span>Follow Us</span></div>
+      </div>
+      <nav id="nav">
+        <ul>
+          <li>
+            <a href="/index.html"><i class="fas fa-home"></i> Home</a>
+          </li>
+          <li>
+            <i class="fas fa-book"></i> Web Development
+            <ul class="dropMenu" id="wd">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>ReactJs</li>
+              <li>CSS Animation</li>
+            </ul>
+          </li>
+          <li>
+            <i class="fab fa-android"></i> Android Development
+            <ul class="dropMenu" id="ad">
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>ReactJs</li>
+              <li>CSS Animation</li>
+            </ul>
+          </li>
+          <li><i class="fas fa-newspaper"></i> Tech News</li>
+          <li><i class="fas fa-mobile-alt"></i> Devices</li>
+          <li>
+            <a href="/assets/html/aboutUs.html">
+              <i class="fas fa-info-circle"></i> About Us</a
+            >
+          </li>
+          <li><i class="fas fa-address-card"></i> Contact Us</li>
+          <!-- <li><i class="fas fa-sticky-note"></i> Disclaimer</li> -->
+        </ul>
+      </nav>
+    </div>
+    <nav id="nav2">
+      <div id="toggle"><i class="fas fa-bars"></i></div>
+      <ul id="mobileMenu">
+        <li>
+          <a href="/index.html"><i class="fas fa-home"></i> Home</a>
+        </li>
+        <li>
+          <i class="fas fa-book"></i> Web Development
+          <ul class="dropMenu" id="wd">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>ReactJs</li>
+            <li>CSS Animation</li>
+          </ul>
+        </li>
+        <li>
+          <i class="fab fa-android"></i> Android Development
+          <ul class="dropMenu" id="ad">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>ReactJs</li>
+            <li>CSS Animation</li>
+          </ul>
+        </li>
+        <li><i class="fas fa-newspaper"></i> Tech News</li>
+        <li><i class="fas fa-mobile-alt"></i> Devices</li>
+        <li>
+          <a href="/assets/html/aboutUs.html">
+            <i class="fas fa-info-circle"></i> About Us</a
+          >
+        </li>
+        <li><i class="fas fa-address-card"></i> Contact Us</li>
+        <!-- <li><i class="fas fa-sticky-note"></i> Disclaimer</li> -->
+      </ul>
+    </nav>
+    <div class="bodyContainer">
+      <div class="followContainer">
+        <div class="followModal">
+          <div class="followClose"><i class="fas fa-times"></i></div>
+          <div class="followCard">
+            <div class="followLogo">
+              <i class="fab fa-facebook-f"></i><br />Facebook
+            </div>
+            <div class="followText">
+              <span>Official Page</span><span>Regular Updates</span
+              ><span>Realtime Alert</span>
+            </div>
+            <a>Follow us</a>
+          </div>
+          <div class="followCard">
+            <div class="followLogo">
+              <i class="fab fa-twitter"></i><br />Twitter
+            </div>
+            <div class="followText">
+              <span>@freetechstuff27</span><span>Regular Updates</span
+              ><span>Realtime Alert</span>
+            </div>
+            <a href="#" target="_blank">Follow us</a>
+          </div>
+          <div class="followCard">
+            <div class="followLogo">
+              <i class="fab fa-youtube"></i><br />YouTube
+            </div>
+            <div class="followText">
+              <span>The Coding Lab</span><span>Design & Projects</span
+              ><span>13000+ views</span>
+            </div>
+            <a
+              href="https://www.youtube.com/channel/UCfqU1zw2n7_dzWskNOep-Ww"
+              target="_blank"
+              >Follow us</a
+            >
+          </div>
+        </div>
+      </div>
+      <div class="homePage">
+        <section class="techSection sectionHeading">
+          <h1>Technology in Trend</h1>
+          <div class="leftMenu">
+            <ul>
+              <li>
+                <span>Top Tech 2019</span>
+              </li>
+              <li>
+                <span>Tech Buzz</span>
+              </li>
+              <li>
+                <span>Upcoming Devices</span>
+              </li>
+              <li>
+                <span>Latest Reviews</span>
+              </li>
+            </ul>
+          </div>
+          <div class="techCard"></div>
+          <div class="techScroll">
+            <i class="fas fa-angle-down click"></i>
+          </div>
+          <div class="techScroll" id="t2">
+            <i class="fas fa-angle-up click"></i>
+          </div>
+        </section>
+        <section class="webDevelopment sectionHeading">
+          <h1>Web Development</h1>
+          <div class="webCards"></div>
+          <div class="sideScroll">
+            <span> <i class="fas fa-chevron-left click"></i></span>
+          </div>
+          <div class="sideScroll" id="webScrollLeft">
+            <span><i class="fas fa-chevron-right click"></i></span>
+          </div>
+        </section>
+        <section class="androidDevelopment sectionHeading">
+          <h1>Android Development</h1>
+          <div class="androidCards"></div>
+          <div class="sideScroll2">
+            <i class="fas fa-chevron-left click"></i>
+          </div>
+          <div class="sideScroll2" id="androidScrollLeft">
+            <i class="fas fa-chevron-right click"></i>
+          </div>
+        </section>
+        <div class="mr sectionHeading">
+          <h1>We Value Your Feedback</h1>
+          <div class="feedBack">
+            <div class="kachra">
+              <div>Name</div>
+              <div>Email</div>
+              <div>How Did You Find Us?</div>
+              <div>Comment</div>
+            </div>
+            <form>
+              <input type="text" id="name" placeholder="Enter Your Name" />
+              <input type="email" id="email" placeholder="Enter Your Email" />
+              <select>
+                <option>Friends</option>
+                <option>Social Media</option>
+                <option>Other</option></select
+              >
+              <textarea placeholder="Any Feedback..."></textarea>
+            </form>
+          </div>
+        </div>
+        <footer>
+          <div class="left">
+            <h5>Links</h5>
+            <ul>
+              <li>Home</li>
+              <li>Web Development</li>
+              <li>Android Development</li>
+              <li>Tech News</li>
+              <li>About Us</li>
+              <li>Contact Us</li>
+              <li>Privacy and Policy</li>
+              <li>Disclaimer</li>
+            </ul>
+          </div>
+          <div class="socialMedia">
+            <h5>Follow Us On</h5>
+            <ul>
+              <li><i class="fab fa-facebook-square"></i></li>
+              <li><i class="fab fa-twitter-square"></i></li>
+              <li><i class="fab fa-youtube-square"></i></li>
+              <li><i class="fas fa-envelope-square"></i></li>
+            </ul>
+          </div>
+          <div class="right">
+            <div class="logoText">
+              <div class="free">FREE</div>
+              <div class="tech">TECH</div>
+              <div class="stuff">STUFF.com</div>
+            </div>
+            <div class="copyright">
+              2019 © All Rights are Reserved
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/de1c10e5c7.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="assets/JS/jquery.waypoints.min.js"></script>
+    <script src="assets/JS/homeController.js"></script>
+    <script src="/assets/JS/homePage.js"></script>
+  </body>
+</html>

@@ -1,0 +1,63 @@
+{
+  "techData": {
+    "count": 4,
+    "image": [
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg"
+    ],
+    "headline": [
+      "Google Pixel - 4 to be launched soon!",
+      "Google Pixel - 4 to be launched soon!",
+      "FeedBack<br />Google Pixel - 4 to be launched soon!",
+      "Create FB-page and Twitter.....<br />FeedBack<br />Google Pixel - 4 to be launched soon!"
+    ],
+    "text": [
+      "This website is under Development contact us whenever we are free, we aasure you to respond.",
+      "This website is under Development contact us whenever we are free, we aasure you to respond.",
+      "This website is under Development contact us whenever we are not free, we aasure you not to respond.",
+      "This website is under Development contact us whenever we are not free, we aasure you not to respond."
+    ],
+    "date": ["28- Sept 2019", "28- Sept 2019", "1- Oct 2019", "2- Oct 2019"]
+  },
+
+  "webData": {
+    "count": 5,
+    "section": ["HTML", "CSS", "JS", "jQ", "ReactJs"],
+    "heading": ["HTML Basics", "CSS", "JavaScript", "jQuery"],
+    "img": [
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg"
+    ],
+    "body": [
+      "HTML stands for Hyper Text Markup Language. It is a markup language used to create webpages. It creates the founding Structure of web-development.",
+      "CSS stands for Cascading Style Sheets. It is used to design and format the webpages.There are various ways in which CSS can be attatched to an HTML document.",
+      "It is a scripting language used to meake website interactive and dynamic. It can be used well in both front-end and back-end development.",
+      "It is a JavaScript library consists of pre-definded functions which can be used for DOM manipulation, animations, etc.",
+      "It is a JavaScript library used for front-end development. It is developed by Facebook and mainly used for single-page applications development."
+    ]
+  },
+  "androidData": {
+    "count": 5,
+    "section": ["HTML", "CSS", "JS", "jQ", "ReactJs"],
+    "heading": ["HTML Basics", "CSS", "JavaScript", "jQuery"],
+    "img": [
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg",
+      "/assets/resources/p4.jpg"
+    ],
+    "body": [
+      "HTML stands for Hyper Text Markup Language. It is a markup language used to create webpages. It creates the founding Structure of web-development.",
+      "CSS stands for Cascading Style Sheets. It is used to design and format the webpages.There are various ways in which CSS can be attatched to an HTML document.",
+      "It is a scripting language used to meake website interactive and dynamic. It can be used well in both front-end and back-end development.",
+      "It is a JavaScript library consists of pre-definded functions which can be used for DOM manipulation, animations, etc.",
+      "It is a JavaScript library used for front-end development. It is developed by Facebook and mainly used for single-page applications development."
+    ]
+  }
+}

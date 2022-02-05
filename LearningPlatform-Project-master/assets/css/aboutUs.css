@@ -1,0 +1,117 @@
+#aboutUs {
+  font-family: sans-serif;
+  font-size: 17px;
+  grid-template-rows: 70vh 70vh 300px;
+  grid-template-areas:
+    "offer"
+    "author"
+    "ft";
+  font-size: 17px;
+}
+.services {
+  position: relative;
+  grid-area: offer;
+  background-color: rgb(241, 238, 238);
+}
+.features {
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  width: 70%;
+  height: 75%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: rgb(41, 41, 41);
+}
+.feature1,
+.feature2 {
+  width: 100%;
+  height: 46%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.feature2 {
+  align-self: center;
+  width: 46%;
+}
+.feature2 .fCard {
+  width: 42%;
+}
+.fCard {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.fCard .img,
+.fCard span {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+.fCard .img {
+  margin-top: 25%;
+  font-size: 50px;
+}
+.authors {
+  position: relative;
+  grid-area: author;
+}
+.authorContainer {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  width: 70%;
+  height: 75%;
+  transform: translate(-50%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.authorContainer .authorDetails {
+  position: relative;
+  width: 22%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.authorDetails span {
+  text-align: center;
+}
+.authorImg {
+  width: 50%;
+  height: 30%;
+  border-radius: 50%;
+}
+#avas27 {
+  background-image: url("/assets/resources/avas27.jpg");
+  background-size: cover;
+  background-position: 20% 30%;
+}
+#sumit {
+  background-image: url("/assets/resources/sumit.jpg");
+  background-size: cover;
+  background-position: 20% 30%;
+}
+#baluram {
+  background-color: #555;
+  /* background-image: url("/assets/resources/avas27.jpg");
+    background-size: cover;
+    background-position: 20% 30%; */
+}
+#shivam {
+  background-color: #555;
+  /* background-image: url("/assets/resources/avas27.jpg");
+    background-size: cover;
+    background-position: 20% 30%; */
+}
+.authorDetails span,
+.authorDetails h5 {
+  margin-top: 0.5em;
+}
